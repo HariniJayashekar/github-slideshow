@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Demo</title>
+    <style type="text/css">
+     body{
+         background-color: green;
+         background-image: url("/images/panda.jpg") ;
+         background-position: top right;
+         background-repeat: scroll;
+         background-attachment: scroll;
+     }
+    </style>
+</head>
+<body>
+    The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hypertext, and are accessible over the Internet.[1][2] The resources of the Web are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software application called a web browser and are published by a software application called a web server. The World Wide Web is not synonymous with the Internet, which pre-existed the Web in some form by over two decades and upon whose technologies the Web is built.
+    English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN near Geneva, Switzerland.[3][4] The browser was released outside CERN to other research institutions starting in January 1991, and then to the general public in August 1991. The World Wide Web has been central to the development of the Information Age, and is the primary tool billions of people use to interact on the Internet.[5][6][7][8][9]
+
+Web resources may be any type of downloaded media, but web pages are hypertext documents formatted in Hypertext Markup Language (HTML).[10] Special HTML syntax displays embedded hyperlinks with URLs which permits users to navigate to other web resources. In addition to text, web pages may contain references to images, video, audio, and software components which are either displayed or internally executed in the user's web browser to render pages or streams of multimedia content.
+
+Multiple web resources with a common theme and usually a common domain name, make up a website. Websites are stored in computers that are running a web server, which is a program that responds to requests made over the Internet from web browsers running on a user's computer. Website content can be provided by a publisher, or interactively from user-generated content. Websites are provided for a myriad of informative, entertainment, commercial, and governmental reasons.
+
+
+Contents
+1	History
+2	Function
+2.1	HTML
+2.2	Linking
+2.3	WWW prefix
+2.4	Scheme specifiers
+2.5	Pages
+2.5.1	Static page
+2.5.2	Dynamic pages
+2.6	Website
+2.7	Browser
+2.8	Server
+2.9	Cookie
+2.10	Search engine
+2.11	Deep web
+2.12	Caching
+3	Security
+4	Privacy
+5	Standards
+6	Accessibility
+7	Internationalisation
+8	See also
+9	References
+10	Further reading
+11	External links
+History
+Main article: History of the World Wide Web
+
+The NeXT Computer used by Tim Berners-Lee at CERN.
+
+The corridor where WWW was born. CERN, ground floor of building No.1
+Tim Berners-Lee's vision of a global hyperlinked information system became a possibility by the second half of the 1980s.[11] By 1985, the global Internet began to proliferate in Europe and the Domain Name System (upon which the Uniform Resource Locator is built) came into being. In 1988 the first direct IP connection between Europe and North America was made and Berners-Lee began to openly discuss the possibility of a web-like system at CERN.[12]
+
+While working at CERN, Berners-Lee became frustrated with the inefficiencies and difficulties posed by finding information stored on different computers.[13] On March 12, 1989, he submitted a memorandum, titled "Information Management: A Proposal",[14] to the management at CERN for a system called "Mesh" that referenced ENQUIRE, a database and software project he had built in 1980, which used the term "web" and described a more elaborate information management system based on links embedded as text: "Imagine, then, the references in this document all being associated with the network address of the thing to which they referred, so that while reading this document, you could skip to them with a click of the mouse." Such a system, he explained, could be referred to using one of the existing meanings of the word hypertext, a term that he says was coined in the 1950s. There is no reason, the proposal continues, why such hypertext links could not encompass multimedia documents including graphics, speech and video, so that Berners-Lee goes on to use the term hypermedia.[15]
+
+With help from his colleague and fellow hypertext enthusiast Robert Cailliau he published a more formal proposal on 12 November 1990 to build a "Hypertext project" called "WorldWideWeb" (one word) as a "web" of "hypertext documents" to be viewed by "browsers" using a client–server architecture.[16] At this point HTML and HTTP had already been in development for about two months and the first Web server was about a month from completing its first successful test. This proposal estimated that a read-only web would be developed within three months and that it would take six months to achieve "the creation of new links and new material by readers, [so that] authorship becomes universal" as well as "the automatic notification of a reader when new material of interest to him/her has become available". While the read-only goal was met, accessible authorship of web content took longer to mature, with the wiki concept, WebDAV, blogs, Web 2.0 and RSS/Atom.[17]
+
+
+The CERN data centre in 2010 housing some WWW servers
+The proposal was modelled after the SGML reader Dynatext by Electronic Book Technology, a spin-off from the Institute for Research in Information and Scholarship at Brown University. The Dynatext system, licensed by CERN, was a key player in the extension of SGML ISO 8879:1986 to Hypermedia within HyTime, but it was considered too expensive and had an inappropriate licensing policy for use in the general high energy physics community, namely a fee for each document and each document alteration.[citation needed] A NeXT Computer was used by Berners-Lee as the world's first web server and also to write the first web browser in 1990. By Christmas 1990, Berners-Lee had built all the tools necessary for a working Web:[18] the first web browser (WorldWideWeb, which was a web editor as well) and the first web server. The first web site,[19] which described the project itself, was published on 20 December 1990.[20]
+
+The first server outside Europe was installed in Dec 1991 at the Stanford Linear Accelerator Center (SLAC) in Palo Alto, California, to host the SPIRES-HEP database.[24][25][26][27] The underlying concept of hypertext originated in previous projects from the 1960s, such as the Hypertext Editing System (HES) at Brown University, Ted Nelson's Project Xanadu, and Douglas Engelbart's oN-Line System (NLS). Both Nelson and Engelbart were in turn inspired by Vannevar Bush's microfilm-based memex, which was described in the 1945 essay "As We May Think".[28]
+
+Berners-Lee's breakthrough was to marry hypertext to the Internet. In his book Weaving The Web, he explains that he had repeatedly suggested to members of both technical communities that a marriage between the two technologies was possible. But, when no one took up his invitation, he finally assumed the project himself. In the process, he developed three essential technologies:
+
+a system of globally unique identifiers for resources on the Web and elsewhere, the universal document identifier (UDI), later known as uniform resource locator (URL) and uniform resource identifier (URI);
+the publishing language Hypertext Markup Language (HTML);
+the Hypertext Transfer Protocol (HTTP).[29]
+The World Wide Web had several differences from other hypertext systems available at the time. The Web required only unidirectional links rather than bidirectional ones, making it possible for someone to link to another resource without action by the owner of that resource. It also significantly reduced the difficulty of implementing web servers and browsers (in comparison to earlier systems), but in turn presented the chronic problem of link rot. Unlike predecessors such as HyperCard, the World Wide Web was non-proprietary, making it possible to develop servers and clients independently and to add extensions without licensing restrictions. On 30 April 1993, CERN announced that the World Wide Web would be free to anyone, with no fees due.[30] Coming two months after the announcement that the server implementation of the Gopher protocol was no longer free to use, this produced a rapid shift away from Gopher and toward the Web. An early popular web browser was ViolaWWW for Unix and the X Window System.
+
+
+Robert Cailliau, Jean-François Abramatic, and Tim Berners-Lee at the 10th anniversary of the World Wide Web Consortium.
+Historians generally agree that a turning point for the Web began with the 1993 introduction of Mosaic,[31][32] a graphical web browser developed at the National Center for Supercomputing Applications at the University of Illinois at Urbana–Champaign (NCSA-UIUC). The development was led by Marc Andreessen, while funding came from the US High-Performance Computing and Communications Initiative and the High Performance Computing Act of 1991, one of several computing developments initiated by US Senator Al Gore.[33] Prior to the release of Mosaic, graphics were not commonly mixed with text in web pages, and the Web was less popular than older protocols such as Gopher and Wide Area Information Servers (WAIS). Mosaic's graphical user interface allowed the Web to become by far the most popular protocol on the Internet. The World Wide Web Consortium (W3C) was founded by Tim Berners-Lee after he left the European Organization for Nuclear Research (CERN) in October 1994. It was founded at the Massachusetts Institute of Technology Laboratory for Computer Science (MIT/LCS) with support from the Defense Advanced Research Projects Agency (DARPA), which had pioneered the Internet; a year later, a second site was founded at
+The first web page may be lost, but Paul Jones of UNC-Chapel Hill in North Carolina announced in May 2013 that Berners-Lee gave him wh
+The University of Illinois at Urbana–Champaign (U of I, Illinois, or colloquially the University of Illinois or UIUC)[7][8] is a public land-grant research university in Illinois in the twin cities of Champaign and Urbana. It is the flagship institution of the University of Illinois system and was founded in 1867.
+
+The University of Illinois at Urbana–Champaign is a member of the Association of American Universities and is classified among "R1: Doctoral Universities – Very high research activity".[9] In fiscal year 2019, research expenditures at Illinois totaled $652 million.[10][11] The campus library system possesses the second-largest university library in the United States by holdings after Harvard University.[12] The university also hosts the National Center for Supercomputing Applications (NCSA) and is home to the fastest supercomputer on a university campus.[13]
+
+The university contains 16 schools and colleges[14] and offers more than 150 undergraduate and over 100 graduate programs of study. The university holds 651 buildings on 6,370 acres (2,578 ha)[5] and its annual operating budget in 2016 was over $2 billion.[15] The University of Illinois at Urbana–Champaign also operates a Research Park home to innovation centers for over 90 start-up companies and multinational corporations, including Abbott, AbbVie, Caterpillar, Capital One, Dow, State Farm, and Yahoo, among others.[11]
+
+As of August 2020, the alumni, faculty members, or researchers of the university include 30 Nobel laureates, 27 Pulitzer Prize winners, 2 Turing Award winners and 1 Fields medalist. Illinois athletic teams compete in Division I of the NCAA and are collectively known as the Fighting Illini. They are members of the Big Ten Conference and have won the second-most conference titles. Illinois Fighting Illini football won the Rose Bowl Game in 1947, 1952, 1964 and a total of five national championships. Illinois athletes have won 29 medals in Olympic events, ranking it among the top 40 American universities with Olympic medals.
+
+
+Contents
+1	History
+1.1	Illinois Industrial University
+1.2	University of Illinois
+1.3	University of Illinois at Urbana–Champaign
+2	Campus
+2.1	Sustainability
+3	Academics
+3.1	Admissions
+3.2	Online learning
+3.3	Rankings
+4	Research
+4.1	Research Park
+4.2	National Center for Supercomputing Applications
+4.3	Prairie Research Institute
+4.4	Accolades
+5	Entrepreneurship
+5.1	Technology Entrepreneur Center
+6	Discoveries and innovation
+6.1	Natural sciences
+6.2	Computer & applied sciences
+6.3	Companies & entrepreneurship
+7	Student life
+7.1	Enrollment
+7.2	Student organizations
+7.3	Residence halls
+7.4	Libraries and museums
+7.5	Recreation
+7.6	Transportation
+8	Athletics
+8.1	Chief Illiniwek
+9	Notable faculty and alumni
+10	Philanthropy
+11	See also
+12	References
+13	Further reading
+14	External links
+History
+Main article: History of the University of Illinois at Urbana–Champaign
+Illinois Industrial University
+
+The original University Hall, which stood until 1938, when it was replaced by Gregory Hall and the Illini Union. Pieces were used in the erection of Hallene Gateway dedicated in 1998.[16]
+The University of Illinois, originally named "Illinois Industrial University", was one of the 37 universities created under the first Morrill Land-Grant Act, which provided public land for the creation of agricultural and industrial colleges and universities across the United States. Among several cities, Urbana was selected in 1867 as the site for the new school.[17][18] From the beginning, President John Milton Gregory's desire to establish an institution firmly grounded in the liberal arts tradition was at odds with many state residents and lawmakers who wanted the university to offer classes based solely around "industrial education".[19] The university opened for classes on March 2, 1868, and had two faculty members and 77 students.[20]
+
+
+John Milton Gregory, the university's first president
+The Library, which opened with the school in 1868, started with 1,039 volumes. Subsequently, President Edmund J. James, in a speech to the board of trustees in 1912, proposed to create a research library. It is now one of the world's largest public academic collections.[18][21][22] In 1870, the Mumford House was constructed as a model farmhouse for the school's experimental farm. The Mumford House remains the oldest structure on campus.[23] The original University Hall (1871) was the fourth building built; it stood where the Illini Union stands today.[24]
+
+University of Illinois
+In 1885, the Illinois Industrial University officially changed its name to the "University of Illinois", reflecting its agricultural, mechanical, and liberal arts curriculum.[19]
+
+During his presidency, Edmund J. James (1904–1920) is credited for building the foundation for the large Chinese international student population on campus.[25][26][27][28] James established ties with China through the Chinese Minister to the United States Wu Ting-Fang.[28] In addition, during James's presidency, class rivalries and Bob Zuppke's winning football teams contributed to campus morale.[18]
+
+
+Statue on campus titled "Alma Mater" by Lorado Taft
+Alma Mater, a prominent statue on campus created by alumnus Lorado Taft, was unveiled on June 11, 1929. It was established from donations by the Alumni Fund and the classes of 1923–1929.[29]
+
+Like many universities, the economic depression slowed construction and expansion on the campus. The university replaced the original university hall with Gregory Hall and the Illini Union. After World War II, the university experienced rapid growth. The enrollment doubled and the academic standing improved.[30] This period was also marked by large growth in the Graduate College and increased federal support of scientific and technological research. During the 1950s and 1960s the university experienced the turmoil common on many American campuses. Among these were the water fights of the fifties and sixties.[31]
+
+University of Illinois at Urbana–Champaign
+By 1967 the University of Illinois system consisted of a main campus in Champaign-Urbana and two Chicago campuses, Chicago Circle (UICC) and Medical Center (UIMC), and people began using "Urbana–Champaign" or the reverse to refer to the main campus specifically. The university name officially changed to the "University of Illinois at Urbana–Champaign" around 1982. While this was a reversal of the commonly used designation for the metropolitan area, "Champaign-Urbana," most of the campus is located in Urbana. The name change established a separate identity for the main campus within the University of Illinois system, which today includes campuses in Springfield (UIS) and Chicago (UIC) (formed by the merger of UICC and UIMC).
+
+In 1998, the Hallene Gateway Plaza was dedicated. The Plaza features the original sandstone portal of University Hall, which was originally the fourth building on campus.[24] In recent years, state support has declined from 4.5% of the state's tax appropriations in 1980 to 2.28% in 2011, a nearly 50% decline.[32] As a result, the university's budget has shifted away from relying on state support with nearly 84% of the budget now coming from other sources.[33]
+
+On March 12, 2015, the Board of Trustees approved the creation of a medical school, the first college created at Urbana–Champaign in 60 years.[34][35][36] The Carle-Illinois College of Medicine began classes in 2018.[37]
+
+Campus
+
+Green Street in Campustown
+Main article: Campus of the University of Illinois at Urbana–Champaign
+See also: Campustown (Champaign, Illinois)
+The main research and academic facilities are divided almost evenly between the twin cities of Urbana and Champaign, which form part of the Champaign–Urbana metropolitan area. The College of Agriculture, Consumer, and Environmental Sciences' research fields stretch south from Urbana and Champaign into Savoy and Champaign County. The university maintains formal gardens and a conference center in nearby Monticello at Allerton Park. Four main quads compose the center of the university and are arranged from north to south. The Beckman Quadrangle and the John Bardeen Quadrangle occupy the center of the Engineering Campus. Boneyard Creek flows through the John Bardeen Quadrangle, paralleling Green Street. The Beckman Quadrangle, named after Arnold Orville Beckman, is primarily composed of research units and laboratories, and features a large solar calendar consisting of an obelisk and several copper fountains. The Main Quadrangle and South Quadrangle follow immediately after the John Bardeen Quad. The former makes up a large part of the Liberal Arts and Sciences portion of the campus, while the latter comprises many of the buildings of the College of ACES spread across the campus map.[38]
+
+The campus is known for its landscape and architecture, as well as distinctive landmarks.[39] It was identified as one of 50 college or university "works of art" by T.A.The University of Illinois at Urbana–Champaign (U of I, Illinois, or colloquially the University of Illinois or UIUC)[7][8] is a public land-grant research university in Illinois in the twin cities of Champaign and Urbana. It is the flagship institution of the University of Illinois system and was founded in 1867.
+
+The University of Illinois at Urbana–Champaign is a member of the Association of American Universities and is classified among "R1: Doctoral Universities – Very high research activity".[9] In fiscal year 2019, research expenditures at Illinois totaled $652 million.[10][11] The campus library system possesses the second-largest university library in the United States by holdings after Harvard University.[12] The university also hosts the National Center for Supercomputing Applications (NCSA) and is home to the fastest supercomputer on a university campus.[13]
+
+The university contains 16 schools and colleges[14] and offers more than 150 undergraduate and over 100 graduate programs of study. The university holds 651 buildings on 6,370 acres (2,578 ha)[5] and its annual operating budget in 2016 was over $2 billion.[15] The University of Illinois at Urbana–Champaign also operates a Research Park home to innovation centers for over 90 start-up companies and multinational corporations, including Abbott, AbbVie, Caterpillar, Capital One, Dow, State Farm, and Yahoo, among others.[11]
+
+As of August 2020, the alumni, faculty members, or researchers of the university include 30 Nobel laureates, 27 Pulitzer Prize winners, 2 Turing Award winners and 1 Fields medalist. Illinois athletic teams compete in Division I of the NCAA and are collectively known as the Fighting Illini. They are members of the Big Ten Conference and have won the second-most conference titles. Illinois Fighting Illini football won the Rose Bowl Game in 1947, 1952, 1964 and a total of five national championships. Illinois athletes have won 29 medals in Olympic events, ranking it among the top 40 American universities with Olympic medals.
+
+
+Contents
+1	History
+1.1	Illinois Industrial University
+1.2	University of Illinois
+1.3	University of Illinois at Urbana–Champaign
+2	Campus
+2.1	Sustainability
+3	Academics
+3.1	Admissions
+3.2	Online learning
+3.3	Rankings
+4	Research
+4.1	Research Park
+4.2	National Center for Supercomputing Applications
+4.3	Prairie Research Institute
+4.4	Accolades
+5	Entrepreneurship
+5.1	Technology Entrepreneur Center
+6	Discoveries and innovation
+6.1	Natural sciences
+6.2	Computer & applied sciences
+6.3	Companies & entrepreneurship
+7	Student life
+7.1	Enrollment
+7.2	Student organizations
+7.3	Residence halls
+7.4	Libraries and museums
+7.5	Recreation
+7.6	Transportation
+8	Athletics
+8.1	Chief Illiniwek
+9	Notable faculty and alumni
+10	Philanthropy
+11	See also
+12	References
+13	Further reading
+14	External links
+History
+Main article: History of the University of Illinois at Urbana–Champaign
+Illinois Industrial University
+
+The original University Hall, which stood until 1938, when it was replaced by Gregory Hall and the Illini Union. Pieces were used in the erection of Hallene Gateway dedicated in 1998.[16]
+The University of Illinois, originally named "Illinois Industrial University", was one of the 37 universities created under the first Morrill Land-Grant Act, which provided public land for the creation of agricultural and industrial colleges and universities across the United States. Among several cities, Urbana was selected in 1867 as the site for the new school.[17][18] From the beginning, President John Milton Gregory's desire to establish an institution firmly grounded in the liberal arts tradition was at odds with many state residents and lawmakers who wanted the university to offer classes based solely around "industrial education".[19] The university opened for classes on March 2, 1868, and had two faculty members and 77 students.[20]
+
+
+John Milton Gregory, the university's first president
+The Library, which opened with the school in 1868, started with 1,039 volumes. Subsequently, President Edmund J. James, in a speech to the board of trustees in 1912, proposed to create a research library. It is now one of the world's largest public academic collections.[18][21][22] In 1870, the Mumford House was constructed as a model farmhouse for the school's experimental farm. The Mumford House remains the oldest structure on campus.[23] The original University Hall (1871) was the fourth building built; it stood where the Illini Union stands today.[24]
+
+University of Illinois
+In 1885, the Illinois Industrial University officially changed its name to the "University of Illinois", reflecting its agricultural, mechanical, and liberal arts curriculum.[19]
+
+During his presidency, Edmund J. James (1904–1920) is credited for building the foundation for the large Chinese international student population on campus.[25][26][27][28] James established ties with China through the Chinese Minister to the United States Wu Ting-Fang.[28] In addition, during James's presidency, class rivalries and Bob Zuppke's winning football teams contributed to campus morale.[18]
+
+
+Statue on campus titled "Alma Mater" by Lorado Taft
+Alma Mater, a prominent statue on campus created by alumnus Lorado Taft, was unveiled on June 11, 1929. It was established from donations by the Alumni Fund and the classes of 1923–1929.[29]
+
+Like many universities, the economic depression slowed construction and expansion on the campus. The university replaced the original university hall with Gregory Hall and the Illini Union. After World War II, the university experienced rapid growth. The enrollment doubled and the academic standing improved.[30] This period was also marked by large growth in the Graduate College and increased federal support of scientific and technological research. During the 1950s and 1960s the university experienced the turmoil common on many American campuses. Among these were the water fights of the fifties and sixties.[31]
+
+University of Illinois at Urbana–Champaign
+By 1967 the University of Illinois system consisted of a main campus in Champaign-Urbana and two Chicago campuses, Chicago Circle (UICC) and Medical Center (UIMC), and people began using "Urbana–Champaign" or the reverse to refer to the main campus specifically. The university name officially changed to the "University of Illinois at Urbana–Champaign" around 1982. While this was a reversal of the commonly used designation for the metropolitan area, "Champaign-Urbana," most of the campus is located in Urbana. The name change established a separate identity for the main campus within the University of Illinois system, which today includes campuses in Springfield (UIS) and Chicago (UIC) (formed by the merger of UICC and UIMC).
+
+In 1998, the Hallene Gateway Plaza was dedicated. The Plaza features the original sandstone portal of University Hall, which was originally the fourth building on campus.[24] In recent years, state support has declined from 4.5% of the state's tax appropriations in 1980 to 2.28% in 2011, a nearly 50% decline.[32] As a result, the university's budget has shifted away from relying on state support with nearly 84% of the budget now coming from other sources.[33]
+
+On March 12, 2015, the Board of Trustees approved the creation of a medical school, the first college created at Urbana–Champaign in 60 years.[34][35][36] The Carle-Illinois College of Medicine began classes in 2018.[37]
+
+Campus
+
+Green Street in Campustown
+Main article: Campus of the University of Illinois at Urbana–Champaign
+See also: Campustown (Champaign, Illinois)
+The main research and academic facilities are divided almost evenly between the twin cities of Urbana and Champaign, which form part of the Champaign–Urbana metropolitan area. The College of Agriculture, Consumer, and Environmental Sciences' research fields stretch south from Urbana and Champaign into Savoy and Champaign County. The university maintains formal gardens and a conference center in nearby Monticello at Allerton Park. Four main quads compose the center of the university and are arranged from north to south. The Beckman Quadrangle and the John Bardeen Quadrangle occupy the center of the Engineering Campus. Boneyard Creek flows through the John Bardeen Quadrangle, paralleling Green Street. The Beckman Quadrangle, named after Arnold Orville Beckman, is primarily composed of research units and laboratories, and features a large solar calendar consisting of an obelisk and several copper fountains. The Main Quadrangle and South Quadrangle follow immediately after the John Bardeen Quad. The former makes up a large part of the Liberal Arts and Sciences portion of the campus, while the latter comprises many of the buildings of the College of ACES spread across the campus map.[38]
+
+The campus is known for its landscape and architecture, as well as distinctive landmarks.[39] It was identified as one of 50 college or university "works of art" by T.A.The University of Illinois at Urbana–Champaign (U of I, Illinois, or colloquially the University of Illinois or UIUC)[7][8] is a public land-grant research university in Illinois in the twin cities of Champaign and Urbana. It is the flagship institution of the University of Illinois system and was founded in 1867.
+
+The University of Illinois at Urbana–Champaign is a member of the Association of American Universities and is classified among "R1: Doctoral Universities – Very high research activity".[9] In fiscal year 2019, research expenditures at Illinois totaled $652 million.[10][11] The campus library system possesses the second-largest university library in the United States by holdings after Harvard University.[12] The university also hosts the National Center for Supercomputing Applications (NCSA) and is home to the fastest supercomputer on a university campus.[13]
+
+The university contains 16 schools and colleges[14] and offers more than 150 undergraduate and over 100 graduate programs of study. The university holds 651 buildings on 6,370 acres (2,578 ha)[5] and its annual operating budget in 2016 was over $2 billion.[15] The University of Illinois at Urbana–Champaign also operates a Research Park home to innovation centers for over 90 start-up companies and multinational corporations, including Abbott, AbbVie, Caterpillar, Capital One, Dow, State Farm, and Yahoo, among others.[11]
+
+As of August 2020, the alumni, faculty members, or researchers of the university include 30 Nobel laureates, 27 Pulitzer Prize winners, 2 Turing Award winners and 1 Fields medalist. Illinois athletic teams compete in Division I of the NCAA and are collectively known as the Fighting Illini. They are members of the Big Ten Conference and have won the second-most conference titles. Illinois Fighting Illini football won the Rose Bowl Game in 1947, 1952, 1964 and a total of five national championships. Illinois athletes have won 29 medals in Olympic events, ranking it among the top 40 American universities with Olympic medals.
+
+
+Contents
+1	History
+1.1	Illinois Industrial University
+1.2	University of Illinois
+1.3	University of Illinois at Urbana–Champaign
+2	Campus
+2.1	Sustainability
+3	Academics
+3.1	Admissions
+3.2	Online learning
+3.3	Rankings
+4	Research
+4.1	Research Park
+4.2	National Center for Supercomputing Applications
+4.3	Prairie Research Institute
+4.4	Accolades
+5	Entrepreneurship
+5.1	Technology Entrepreneur Center
+6	Discoveries and innovation
+6.1	Natural sciences
+6.2	Computer & applied sciences
+6.3	Companies & entrepreneurship
+7	Student life
+7.1	Enrollment
+7.2	Student organizations
+7.3	Residence halls
+7.4	Libraries and museums
+7.5	Recreation
+7.6	Transportation
+8	Athletics
+8.1	Chief Illiniwek
+9	Notable faculty and alumni
+10	Philanthropy
+11	See also
+12	References
+13	Further reading
+14	External links
+History
+Main article: History of the University of Illinois at Urbana–Champaign
+Illinois Industrial University
+
+The original University Hall, which stood until 1938, when it was replaced by Gregory Hall and the Illini Union. Pieces were used in the erection of Hallene Gateway dedicated in 1998.[16]
+The University of Illinois, originally named "Illinois Industrial University", was one of the 37 universities created under the first Morrill Land-Grant Act, which provided public land for the creation of agricultural and industrial colleges and universities across the United States. Among several cities, Urbana was selected in 1867 as the site for the new school.[17][18] From the beginning, President John Milton Gregory's desire to establish an institution firmly grounded in the liberal arts tradition was at odds with many state residents and lawmakers who wanted the university to offer classes based solely around "industrial education".[19] The university opened for classes on March 2, 1868, and had two faculty members and 77 students.[20]
+
+
+John Milton Gregory, the university's first president
+The Library, which opened with the school in 1868, started with 1,039 volumes. Subsequently, President Edmund J. James, in a speech to the board of trustees in 1912, proposed to create a research library. It is now one of the world's largest public academic collections.[18][21][22] In 1870, the Mumford House was constructed as a model farmhouse for the school's experimental farm. The Mumford House remains the oldest structure on campus.[23] The original University Hall (1871) was the fourth building built; it stood where the Illini Union stands today.[24]
+
+University of Illinois
+In 1885, the Illinois Industrial University officially changed its name to the "University of Illinois", reflecting its agricultural, mechanical, and liberal arts curriculum.[19]
+
+During his presidency, Edmund J. James (1904–1920) is credited for building the foundation for the large Chinese international student population on campus.[25][26][27][28] James established ties with China through the Chinese Minister to the United States Wu Ting-Fang.[28] In addition, during James's presidency, class rivalries and Bob Zuppke's winning football teams contributed to campus morale.[18]
+
+
+Statue on campus titled "Alma Mater" by Lorado Taft
+Alma Mater, a prominent statue on campus created by alumnus Lorado Taft, was unveiled on June 11, 1929. It was established from donations by the Alumni Fund and the classes of 1923–1929.[29]
+
+Like many universities, the economic depression slowed construction and expansion on the campus. The university replaced the original university hall with Gregory Hall and the Illini Union. After World War II, the university experienced rapid growth. The enrollment doubled and the academic standing improved.[30] This period was also marked by large growth in the Graduate College and increased federal support of scientific and technological research. During the 1950s and 1960s the university experienced the turmoil common on many American campuses. Among these were the water fights of the fifties and sixties.[31]
+
+University of Illinois at Urbana–Champaign
+By 1967 the University of Illinois system consisted of a main campus in Champaign-Urbana and two Chicago campuses, Chicago Circle (UICC) and Medical Center (UIMC), and people began using "Urbana–Champaign" or the reverse to refer to the main campus specifically. The university name officially changed to the "University of Illinois at Urbana–Champaign" around 1982. While this was a reversal of the commonly used designation for the metropolitan area, "Champaign-Urbana," most of the campus is located in Urbana. The name change established a separate identity for the main campus within the University of Illinois system, which today includes campuses in Springfield (UIS) and Chicago (UIC) (formed by the merger of UICC and UIMC).
+
+In 1998, the Hallene Gateway Plaza was dedicated. The Plaza features the original sandstone portal of University Hall, which was originally the fourth building on campus.[24] In recent years, state support has declined from 4.5% of the state's tax appropriations in 1980 to 2.28% in 2011, a nearly 50% decline.[32] As a result, the university's budget has shifted away from relying on state support with nearly 84% of the budget now coming from other sources.[33]
+
+On March 12, 2015, the Board of Trustees approved the creation of a medical school, the first college created at Urbana–Champaign in 60 years.[34][35][36] The Carle-Illinois College of Medicine began classes in 2018.[37]
+
+Campus
+
+Green Street in Campustown
+Main article: Campus of the University of Illinois at Urbana–Champaign
+See also: Campustown (Champaign, Illinois)
+The main research and academic facilities are divided almost evenly between the twin cities of Urbana and Champaign, which form part of the Champaign–Urbana metropolitan area. The College of Agriculture, Consumer, and Environmental Sciences' research fields stretch south from Urbana and Champaign into Savoy and Champaign County. The university maintains formal gardens and a conference center in nearby Monticello at Allerton Park. Four main quads compose the center of the university and are arranged from north to south. The Beckman Quadrangle and the John Bardeen Quadrangle occupy the center of the Engineering Campus. Boneyard Creek flows through the John Bardeen Quadrangle, paralleling Green Street. The Beckman Quadrangle, named after Arnold Orville Beckman, is primarily composed of research units and laboratories, and features a large solar calendar consisting of an obelisk and several copper fountains. The Main Quadrangle and South Quadrangle follow immediately after the John Bardeen Quad. The former makes up a large part of the Liberal Arts and Sciences portion of the campus, while the latter comprises many of the buildings of the College of ACES spread across the campus map.[38]
+
+The campus is known for its landscape and architecture, as well as distinctive landmarks.[39] It was identified as one of 50 college or university "works of art" by T.A.The University of Illinois at Urbana–Champaign (U of I, Illinois, or colloquially the University of Illinois or UIUC)[7][8] is a public land-grant research university in Illinois in the twin cities of Champaign and Urbana. It is the flagship institution of the University of Illinois system and was founded in 1867.
+
+The University of Illinois at Urbana–Champaign is a member of the Association of American Universities and is classified among "R1: Doctoral Universities – Very high research activity".[9] In fiscal year 2019, research expenditures at Illinois totaled $652 million.[10][11] The campus library system possesses the second-largest university library in the United States by holdings after Harvard University.[12] The university also hosts the National Center for Supercomputing Applications (NCSA) and is home to the fastest supercomputer on a university campus.[13]
+
+The university contains 16 schools and colleges[14] and offers more than 150 undergraduate and over 100 graduate programs of study. The university holds 651 buildings on 6,370 acres (2,578 ha)[5] and its annual operating budget in 2016 was over $2 billion.[15] The University of Illinois at Urbana–Champaign also operates a Research Park home to innovation centers for over 90 start-up companies and multinational corporations, including Abbott, AbbVie, Caterpillar, Capital One, Dow, State Farm, and Yahoo, among others.[11]
+
+As of August 2020, the alumni, faculty members, or researchers of the university include 30 Nobel laureates, 27 Pulitzer Prize winners, 2 Turing Award winners and 1 Fields medalist. Illinois athletic teams compete in Division I of the NCAA and are collectively known as the Fighting Illini. They are members of the Big Ten Conference and have won the second-most conference titles. Illinois Fighting Illini football won the Rose Bowl Game in 1947, 1952, 1964 and a total of five national championships. Illinois athletes have won 29 medals in Olympic events, ranking it among the top 40 American universities with Olympic medals.
+
+
+Contents
+1	History
+1.1	Illinois Industrial University
+1.2	University of Illinois
+1.3	University of Illinois at Urbana–Champaign
+2	Campus
+2.1	Sustainability
+3	Academics
+3.1	Admissions
+3.2	Online learning
+3.3	Rankings
+4	Research
+4.1	Research Park
+4.2	National Center for Supercomputing Applications
+4.3	Prairie Research Institute
+4.4	Accolades
+5	Entrepreneurship
+5.1	Technology Entrepreneur Center
+6	Discoveries and innovation
+6.1	Natural sciences
+6.2	Computer & applied sciences
+6.3	Companies & entrepreneurship
+7	Student life
+7.1	Enrollment
+7.2	Student organizations
+7.3	Residence halls
+7.4	Libraries and museums
+7.5	Recreation
+7.6	Transportation
+8	Athletics
+8.1	Chief Illiniwek
+9	Notable faculty and alumni
+10	Philanthropy
+11	See also
+12	References
+13	Further reading
+14	External links
+History
+Main article: History of the University of Illinois at Urbana–Champaign
+Illinois Industrial University
+
+The original University Hall, which stood until 1938, when it was replaced by Gregory Hall and the Illini Union. Pieces were used in the erection of Hallene Gateway dedicated in 1998.[16]
+The University of Illinois, originally named "Illinois Industrial University", was one of the 37 universities created under the first Morrill Land-Grant Act, which provided public land for the creation of agricultural and industrial colleges and universities across the United States. Among several cities, Urbana was selected in 1867 as the site for the new school.[17][18] From the beginning, President John Milton Gregory's desire to establish an institution firmly grounded in the liberal arts tradition was at odds with many state residents and lawmakers who wanted the university to offer classes based solely around "industrial education".[19] The university opened for classes on March 2, 1868, and had two faculty members and 77 students.[20]
+
+
+John Milton Gregory, the university's first president
+The Library, which opened with the school in 1868, started with 1,039 volumes. Subsequently, President Edmund J. James, in a speech to the board of trustees in 1912, proposed to create a research library. It is now one of the world's largest public academic collections.[18][21][22] In 1870, the Mumford House was constructed as a model farmhouse for the school's experimental farm. The Mumford House remains the oldest structure on campus.[23] The original University Hall (1871) was the fourth building built; it stood where the Illini Union stands today.[24]
+
+University of Illinois
+In 1885, the Illinois Industrial University officially changed its name to the "University of Illinois", reflecting its agricultural, mechanical, and liberal arts curriculum.[19]
+
+During his presidency, Edmund J. James (1904–1920) is credited for building the foundation for the large Chinese international student population on campus.[25][26][27][28] James established ties with China through the Chinese Minister to the United States Wu Ting-Fang.[28] In addition, during James's presidency, class rivalries and Bob Zuppke's winning football teams contributed to campus morale.[18]
+
+
+Statue on campus titled "Alma Mater" by Lorado Taft
+Alma Mater, a prominent statue on campus created by alumnus Lorado Taft, was unveiled on June 11, 1929. It was established from donations by the Alumni Fund and the classes of 1923–1929.[29]
+
+Like many universities, the economic depression slowed construction and expansion on the campus. The university replaced the original university hall with Gregory Hall and the Illini Union. After World War II, the university experienced rapid growth. The enrollment doubled and the academic standing improved.[30] This period was also marked by large growth in the Graduate College and increased federal support of scientific and technological research. During the 1950s and 1960s the university experienced the turmoil common on many American campuses. Among these were the water fights of the fifties and sixties.[31]
+
+University of Illinois at Urbana–Champaign
+By 1967 the University of Illinois system consisted of a main campus in Champaign-Urbana and two Chicago campuses, Chicago Circle (UICC) and Medical Center (UIMC), and people began using "Urbana–Champaign" or the reverse to refer to the main campus specifically. The university name officially changed to the "University of Illinois at Urbana–Champaign" around 1982. While this was a reversal of the commonly used designation for the metropolitan area, "Champaign-Urbana," most of the campus is located in Urbana. The name change established a separate identity for the main campus within the University of Illinois system, which today includes campuses in Springfield (UIS) and Chicago (UIC) (formed by the merger of UICC and UIMC).
+
+In 1998, the Hallene Gateway Plaza was dedicated. The Plaza features the original sandstone portal of University Hall, which was originally the fourth building on campus.[24] In recent years, state support has declined from 4.5% of the state's tax appropriations in 1980 to 2.28% in 2011, a nearly 50% decline.[32] As a result, the university's budget has shifted away from relying on state support with nearly 84% of the budget now coming from other sources.[33]
+
+On March 12, 2015, the Board of Trustees approved the creation of a medical school, the first college created at Urbana–Champaign in 60 years.[34][35][36] The Carle-Illinois College of Medicine began classes in 2018.[37]
+
+Campus
+
+Green Street in Campustown
+Main article: Campus of the University of Illinois at Urbana–Champaign
+See also: Campustown (Champaign, Illinois)
+The main research and academic facilities are divided almost evenly between the twin cities of Urbana and Champaign, which form part of the Champaign–Urbana metropolitan area. The College of Agriculture, Consumer, and Environmental Sciences' research fields stretch south from Urbana and Champaign into Savoy and Champaign County. The university maintains formal gardens and a conference center in nearby Monticello at Allerton Park. Four main quads compose the center of the university and are arranged from north to south. The Beckman Quadrangle and the John Bardeen Quadrangle occupy the center of the Engineering Campus. Boneyard Creek flows through the John Bardeen Quadrangle, paralleling Green Street. The Beckman Quadrangle, named after Arnold Orville Beckman, is primarily composed of research units and laboratories, and features a large solar calendar consisting of an obelisk and several copper fountains. The Main Quadrangle and South Quadrangle follow immediately after the John Bardeen Quad. The former makes up a large part of the Liberal Arts and Sciences portion of the campus, while the latter comprises many of the buildings of the College of ACES spread across the campus map.[38]
+
+The campus is known for its landscape and architecture, as well as distinctive landmarks.[39] It was identified as one of 50 college or university "works of art" by T.A.
+</body>
+</html>
